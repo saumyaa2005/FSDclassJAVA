@@ -147,7 +147,7 @@
 
 // class MoterCycle extends Vehicle{
 //     constructor(color, currentSpeed, maxSpeed, fuel){
-//         super(color, currentSpeed, maxSpeed) //super is used to call the constructor of the parent class
+//         super(color, currentSpeed, maxSpeed) //super is used to call the constructor of the parent class // initilize parent class first then child
 //         this.fuel=fuel
 //     }
     
@@ -162,26 +162,28 @@
 
 //we cannot access any method property in parent class, because inheritance is from parent to child not from child to parent( child subset h, or parent superset)
 
-//PROTOYPES --- is a property that is avaiable for all classes and is always named "prototype"
+//PROTOYPES --- is a property that is avaiable for all classes and is always named "prototype"// iski help se later on cheeje add kr skte hai// attribute ya method
 
-class Person{
+// class Person{
   
-    constructor(firstname, secondname){
-        this.firstname=firstname
-        this.secondname=secondname
-    }
-    greet(){
-        console.log("good morning " + this.firstname)
-    }
-}
- Person.prototype.introduce =function(){
-    console.log("my name is ",this.firstname )
- }
-let p=new Person("saumya", "mishra")
-console.log(p.firstname)
-p.greet()
+//     constructor(firstname, secondname){
+//         this.firstname=firstname
+//         this.secondname=secondname
+//     }
+//     greet(){
+//         console.log("good morning " + this.firstname)
+//     }
+// }
+//  Person.prototype.introduce =function(){ //anomnous fn
+//     console.log("my name is ",this.firstname ) // function is not calling hence it is not returning or printing anything
+//  }
+// let p=new Person("saumya", "mishra")
+// console.log(p.firstname)
+// p.greet()
 
+// //git push -u origin main
 
-
-
-
+// person.prototype.favcolor = "dark mauve pink"
+// let p=new person("maria", "saga");
+// console.log(p.favcolor);
+// p.introduce();
