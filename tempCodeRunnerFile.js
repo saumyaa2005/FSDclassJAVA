@@ -1,1 +1,1 @@
-fruits.clear();
+console.log(z)
