@@ -189,12 +189,18 @@
 //include method is case sensitive and return true when element is found amd return false when it doesn't(boolean)
 
 //TRAILING COMMA --(let & const==block scope)
-const arr=[
-    "one",
-    "two",
-    "three",,
-]
-console.log(arr)
-console.log(arr.length)
-const sparsArray=[,]
-console.log(sparsArray)
+// const arr=[
+//     "one",
+//     "two",
+//     "three",,
+// ]
+// console.log(arr)
+// console.log(arr.length)
+// const sparsArray=[,]
+// console.log(sparsArray)
+
+// const person={
+//     firstname: 'john',
+//     lastname : "doe",
+//     age :30,
+// }
